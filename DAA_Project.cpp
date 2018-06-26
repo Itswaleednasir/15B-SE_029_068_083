@@ -10,7 +10,7 @@ Rao Awais (15b-083-se)*/
 using namespace std;
 
 #define MAX 4 // It will ensure that the maximum childs for the "3" nodes are "4"
-#define MIN 2 // It will ensure that the maximum childs for the "1" nodes are "2"
+#define MIN 2 // It will ensure that the minimum childs for the "1" nodes are "2"
 
 struct btreeNode {
 	int val[MAX + 1], count;
